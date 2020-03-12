@@ -4,6 +4,8 @@ from .forms import EmailPostForm, CommentForm
 from .models import Post, Comment
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from taggit.models import Tag
+from django.contrib.postgres.search import SearchVector
+
 
 
 # Create your views here.
